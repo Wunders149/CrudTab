@@ -1,0 +1,97 @@
+*{
+    font: 1em sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background: bisque;
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+/* ------------------------index------------------- */
+
+#btn{
+    position: relative;
+    top: 2%;
+    margin-left: 5%;
+}
+
+#btn a{
+    color: #807575;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.container{
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+table {
+    position: absolute;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 80%;
+    margin: auto 5%;
+    height: 50px;
+    text-align: center;
+}
+#entete{
+    background-color: rgb(176, 180, 141);
+    text-align: center;
+}
+
+/* ------------------------addUser------------------- */
+
+#form{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: auto 25%;
+    padding: 2% 5%;
+    background-color: rgba(189, 161, 128, 0.658);
+    box-shadow: 0 5px 10px rba(0, 0, 0, .1);
+    border-radius: 20px;
+}
+
+form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gird{
+    display: flex;
+    flex-direction: column;
+}
+
+#niveau{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#filiere{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input,select {
+    margin-top: 25px;
+    width: 30;
+    padding:10px 15px; 
+    margin: 5px 0px;
+    background: #8b8888;
+    font-size: 14px;
+    border-radius: 10px;
+}
